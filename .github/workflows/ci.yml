@@ -1,3 +1,7 @@
+name: Adjust file permissions
+  run: chmod +x ./your-script.sh  # Ajuste isso se houver um script em seu projeto que precise ser executável
+
+
 name: Node.js CI
 
 on:

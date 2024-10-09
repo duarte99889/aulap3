@@ -3,8 +3,6 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  - name: Run Jest tests
-        run: npm run test
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
